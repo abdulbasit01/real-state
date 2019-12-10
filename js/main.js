@@ -200,4 +200,18 @@ $(window).on('load', function() {
 
 
 })(jQuery);
-
+// my js 
+console.log("web starting")
+function sendEmail() {
+	Email.send({
+		Host: "smtp.gmail.com",
+		Username : "abdulbasit14827@gmail.com",
+		To : 'abdulbasit14827@gmail.com',
+		From : "abdulbasit14827@gmail.com",
+		Subject : "zaini Proposal To Hadi",
+		Body : "Hello I love",
+	})
+	.then(function(message){
+		alert("mail sent successfully")
+	});
+}
