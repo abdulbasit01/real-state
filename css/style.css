@@ -295,7 +295,7 @@ ol {
 
 .main-menu li a {
 	display: inline-block;
-	color: #fff;
+	color: black;
 	text-transform: uppercase;
 	margin-left: 30px;
 	padding: 12px 5px;
@@ -303,7 +303,7 @@ ol {
 }
 
 .main-menu li a:hover{
-	color: #c6df5b;
+	color: rgba(31, 32, 32, 0.4);
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-style:italic;
 }
@@ -811,11 +811,12 @@ ol {
 
 .clients-section {
 	position: relative;
-	margin-bottom: -60px;
+	margin: 0px;
+	padding: 0px;
 }
 
 .clients-slider {
-	background: rgba(50, 51, 49,1);
+	background: hsl(0, 0%, 6%);
 	padding: 27px 40px;
 	border-radius: 3px;
 }
@@ -1831,7 +1832,18 @@ ol {
 	height: 80px;
 	padding: 15px 20px 10px;
 }
+.footer a{
+	color: white;
+	text-transform: uppercase;
+}
+.footer a:hover{
+	color: hsla(56, 81%, 65%,0.9);
 
+}
+.footer-contact p 	{
+	color: white;
+	text-transform: uppercase;
+}
 /*------------------
 	Responsive
 ---------------------*/
@@ -1927,6 +1939,10 @@ ol {
 	.contact-right {
 		padding-left: 0;
 	}
+}
+.show-more{
+	color: #324a4e;
+	margin-left: 250px;
 }
 
 /* Large Mobile :480px. */
@@ -2094,6 +2110,11 @@ ol {
 	.contact-info-warp p {
 		font-size: 16px;
 		margin-right: 20px;
+	}
+	.show-more{
+		color: #324a4e;
+		display:inline-block;
+		font-size: 0.7rem;
 	}
 }
 
